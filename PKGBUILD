@@ -3,17 +3,16 @@
 # NOTE: Please fill out the license field for your package! If it is unknown,
 # then please put 'unknown'.
 
-# Maintainer: Derek Taylor <derek@distrotube.com>
-pkgname=dmenu-distrotube-git
+# Maintainer: Miguel R. Ávila
+pkgname=zendmenu
 pkgver=4.9
 pkgrel=1
 epoch=
-pkgdesc="This is my personal build of dmenu that is patched for fonts, centering, borders, etc."
+pkgdesc="My customized and patched build of dmenu "
 arch=(x86_64 i686)
-url="https://www.gitlab.com/dwt1/dmenu-distrotube.git"
+url="https://github.com/MiguelRAvila/ZenDmenu.git"
 license=('MIT')
 groups=()
-depends=(ttf-hack ttf-joypixels)
 makedepends=(git)
 checkdepends=()
 optdepends=()
@@ -35,12 +34,12 @@ pkgver() {
 }
 
 build() {
-	cd dmenu-distrotube
+	cd zendmenu
     make X11INC=/usr/include/X11 X11LIB=/usr/lib/X11
 }
 
 package() {
-    cd dmenu-distrotube  
+    cd zendmenu  
     mkdir -p ${pkgdir}/opt/${pkgname}
     cp -rf * ${pkgdir}/opt/${pkgname}
     make PREFIX=/usr DESTDIR="${pkgdir}" install
