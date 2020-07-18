@@ -7,13 +7,13 @@ static const char *fonts[] = {
 };
 static const char *prompt      = NULL;      /* -p option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
-	/*     fg         bg       */
-	[SchemeNorm] = { "#eaeaea", "#141414" },
-	[SchemeSel] = { "#eaeaea", "#3bbf7d" },
-	[SchemeSelHighlight] = { "#141414", "#3bbf7d" },
-	[SchemeNormHighlight] = { "#141414", "#5eade0" },
-	[SchemeOut] = { "#000000", "#00ffff" },
-	[SchemeMid] = { "#eaeaea", "#5eade0" },
+	/*              foreground  background */
+	[SchemeNorm] = { "#eaeaea", "#141414" },  /* Background color */
+	[SchemeSel] = { "#eaeaea", "#3bbf7d" }, /* Main selection color */
+	[SchemeSelHighlight] = { "#141414", "#3bbf7d" }, /* Highlight slectioned color */
+	[SchemeNormHighlight] = { "#141414", "#5eade0" }, /* Highlight no-slectioned color */
+	[SchemeOut] = { "#000000", "#00ffff" }, /* Secondary Color */
+	[SchemeMid] = { "#eaeaea", "#5eade0" }, /* Secondary Color */
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
