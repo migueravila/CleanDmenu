@@ -21,11 +21,11 @@
 
 ### Customization
 
-> 🌟 You can customize the *width*, *font* and *colors* in the `config.h` file.
+> #### 🌟 You can customize the *width*, *font* and *colors* in the `config.h` file.
 
 ##### Colors:
 
-You can modify colors here, I wrote some comments for an easy change
+You can modify colors here (line 10), I wrote some comments for an easy change
 
 ![](https://github.com/MiguelRAvila/ZenDmenu/blob/master/rsc/code1.png)
 
