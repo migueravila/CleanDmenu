@@ -25,7 +25,7 @@
 
 ##### Colors:
 
-You can modify colors here (line 10), I wrote some comments for an easy change
+You can modify colors here (line 10), I wrote some comments for an easy change. Note: By default It has the Nord color scheme.
 
 ![](https://github.com/MiguelRAvila/ZenDmenu/blob/master/rsc/code1.png)
 
