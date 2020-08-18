@@ -6,6 +6,7 @@
 ### Patches
 
 - Center dmenu
+- Floating mode
 - Search Highlight
 - Lineheight
 - More Colors
