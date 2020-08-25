@@ -1,7 +1,6 @@
-# CleanDmenu
-> ### ⚡  My customized and patched build of dmenu with a minimalist design 
-
 ![](https://github.com/MiguelRAvila/ZenDmenu/blob/master/rsc/ss.png)
+
+> ### ⚡  My customized and patched build of dmenu with a minimalist design 
 
 ### Patches
 
