@@ -13,10 +13,10 @@
 
 ### Installation
 
-1. Clone this repo with `git clone https://github.com/MiguelRAvila/ZenDmenu.git`
-2. Run `cd ZenDmenu`
+1. Clone this repo with `git clone https://github.com/MiguelRAvila/CleanDmenu.git`
+2. Run `cd CleanDmenu`
 3. Run `sudo make install`
-4. Now you can run it with `dmenu_run -c -l 15` (`-c` flag is for center and `-l 15` is for the list style with 15 elements)  
+4. Now you can run it with `dmenu_run` (you can use`-c` flag for center and `-l 15` is for the list style with 15 elements)  
 5. ENJOY! 🚀
 
 ### Customization
