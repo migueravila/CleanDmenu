@@ -207,10 +207,10 @@ drawmenu(void)
 	} else if (matches) {
 		/* draw horizontal list */
 		x += inputw;
-		w = TEXTW("<");
+		w = TEXTW("");
 		if (curr->left) {
 			drw_setscheme(drw, scheme[SchemeNorm]);
-			drw_text(drw, x, 0, w, bh, lrpad / 2, "<", 0);
+			drw_text(drw, x, 0, w, bh, lrpad / 2, "", 0);
 		}
 		x += w;
 		for (item = curr; item != next; item = item->right)
