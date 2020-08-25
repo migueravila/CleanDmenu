@@ -1,12 +1,12 @@
-# ZenDmenu
-> ### ⚡  My customized and patched build of dmenu 
+# CleanDmenu
+> ### ⚡  My customized and patched build of dmenu with a minimalist design 
 
 ![](https://github.com/MiguelRAvila/ZenDmenu/blob/master/rsc/ss.png)
 
 ### Patches
 
 - Center dmenu
-- Floating mode
+- Floating in the top of screen
 - Search Highlight
 - Lineheight
 - More Colors
