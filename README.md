@@ -10,7 +10,7 @@
 - Search Highlight
 - Lineheight
 - More Colors
-- Numbers
+- Cleaner design (Removed '<' and '>')
 
 ### Installation
 
@@ -26,7 +26,7 @@
 
 ##### Colors:
 
-You can modify colors here (line 10), I wrote some comments for an easy change. Note: By default It has the Nord color scheme.
+You can modify colors here (line 10), I wrote some comments for an easy change. Note: By default It has the Miramare color scheme.
 
 ![](https://github.com/MiguelRAvila/ZenDmenu/blob/master/rsc/code1.png)
 
