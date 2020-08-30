@@ -1,6 +1,6 @@
 ![](https://github.com/MiguelRAvila/ZenDmenu/blob/master/rsc/ss.png)
 
-> ### ⚡  My customized and patched build of dmenu with a minimalist design 
+> ### 🚀 Floating and enhanced dmenu build  
 
 ### Patches
 
@@ -16,8 +16,10 @@
 1. Clone this repo with `git clone https://github.com/MiguelRAvila/CleanDmenu.git`
 2. Run `cd CleanDmenu`
 3. Run `sudo make install`
-4. Now you can run it with `dmenu_run` (you can use `-l 15` flag for the list style with 15 elements)  
+4. Now you can run it with `cldmenu_run` (you can use `-l 15` flag for the list style with 15 elements)  
 5. ENJOY! 🚀
+
+> In other to not interfer with the dmenu utility, the program will run with `cldmenu` in stead of `dmenu`.
 
 ### Customization
 
