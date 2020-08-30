@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cachedir="${XDG_CACHE_HOME:-"$HOME/.cache"}"
-cache="$cachedir/dmenu_run"
+cache="$cachedir/cldmenu_run"
 
 [ ! -e "$cachedir" ] && mkdir -p "$cachedir"
 

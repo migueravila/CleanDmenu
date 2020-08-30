@@ -1,0 +1,2 @@
+#!/bin/sh
+cldmenu_path | dmenu "$@" | ${SHELL:-"/bin/sh"} &
