@@ -1,3 +1,13 @@
+/*
+   ___ _               ___                     
+  / __| |___ __ _ _ _ |   \ _ __  ___ _ _ _  _ 
+ | (__| / -_) _` | ' \| |) | '  \/ -_) ' \ || |
+  \___|_\___\__,_|_||_|___/|_|_|_\___|_||_\_,_|
+
+   Floating and enhanced dmenu build
+                                           
+*/
+
 static int topbar = 20;                      /* -b  option; if 0, dmenu appears at bottom     */
 static int centered = 1;                    /* -c option; centers dmenu on screen */
 static int min_width = 800;                    /* minimum width when centered */
