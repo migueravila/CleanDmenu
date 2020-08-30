@@ -1,12 +1,11 @@
-# ZenDmenu
-> ### ⚡  My customized and patched build of dmenu 
-
 ![](https://github.com/MiguelRAvila/ZenDmenu/blob/master/rsc/ss.png)
+
+> ### ⚡  My customized and patched build of dmenu with a minimalist design 
 
 ### Patches
 
 - Center dmenu
-- Floating mode
+- Floating in the top of screen
 - Search Highlight
 - Lineheight
 - More Colors
@@ -14,10 +13,10 @@
 
 ### Installation
 
-1. Clone this repo with `git clone https://github.com/MiguelRAvila/ZenDmenu.git`
-2. Run `cd ZenDmenu`
+1. Clone this repo with `git clone https://github.com/MiguelRAvila/CleanDmenu.git`
+2. Run `cd CleanDmenu`
 3. Run `sudo make install`
-4. Now you can run it with `dmenu_run -c -l 15` (`-c` flag is for center and `-l 15` is for the list style with 15 elements)  
+4. Now you can run it with `dmenu_run` (you can use `-l 15` flag for the list style with 15 elements)  
 5. ENJOY! 🚀
 
 ### Customization
