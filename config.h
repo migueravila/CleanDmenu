@@ -1,29 +1,29 @@
-/*
-   ___ _               ___                     
-  / __| |___ __ _ _ _ |   \ _ __  ___ _ _ _  _ 
- | (__| / -_) _` | ' \| |) | '  \/ -_) ' \ || |
-  \___|_\___\__,_|_||_|___/|_|_|_\___|_||_\_,_|
+/*  ____ _____  */
+/* |  _ \_   _|  Derek Taylor (DistroTube) */
+/* | | | || |  	http://www.youtube.com/c/DistroTube */
+/* | |_| || |  	http://www.gitlab.com/dwt1/ */
+/* |____/ |_|  	*/ 
 
-   Floating and enhanced dmenu build
-                                           
-*/
+/* See LICENSE file for copyright and license details. */
+/* Default settings; can be overriden by command line. */
 
-static int topbar = 20;                      /* -b  option; if 0, dmenu appears at bottom     */
+static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 static int centered = 1;                    /* -c option; centers dmenu on screen */
-static int min_width = 800;                    /* minimum width when centered */
+static int min_width = 950;                    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Proxima Nova:size=10"
+	"Proxima Nova:size=9.6",
+	"JoyPixels:pixelsize=8:antialias=true:autohint=true"
 };
 static const char *prompt      = NULL;      /* -p option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
-	/*              foreground  background */
-	[SchemeNorm] = { "#eaeaea", "#0f0f0f" },  /* Background color */
-	[SchemeSel] = { "#0f0f0f", "#e6d6ac" }, /* Main selection color */
-	[SchemeSelHighlight] = { "#1F2229", "#e6d6ac" }, /* Highlight slectioned color */
-	[SchemeNormHighlight] = { "#1F2229", "#e68183" }, /* Highlight no-slectioned color */
-	[SchemeOut] = { "#000000", "#00ffff" }, /* Secondary Color */
-	[SchemeMid] = { "#eaeaea", "#0f0f0f" }, /* Secondary Color */
+	/*     fg         bg       */
+	[SchemeNorm] = { "#cccccc", "#1C1B1D" },
+	[SchemeSel] = { "#0F0F0F", "#98C379" }, 
+	[SchemeSelHighlight] = { "#0F0F0F", "#98C379" },
+	[SchemeNormHighlight] = { "#cccccc", "#1C1B1D" },
+	[SchemeOut] = { "#000000", "#98C379" },
+	[SchemeMid] = { "#d7d7d7", "#1f2026" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;

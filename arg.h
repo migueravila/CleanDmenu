@@ -1,3 +1,8 @@
+/*
+ * Copy me if you can.
+ * by 20h
+ */
+
 #ifndef ARG_H__
 #define ARG_H__
 
