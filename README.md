@@ -41,4 +41,4 @@ In line 3: `static int min_width = 400;` You change the numeric value for a diff
 
 ##### Font:
 
-In line 6: `"Proxima Nova:size=11"` You can change the font and size. (You'll need to have the font in order to use the build. You can find it here: ![Font](https://github.com/MiguelRAvila/Dotfiles/blob/master/.fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf)) 
+In line 6: `"Proxima Nova:size=11"` You can change the font and size. (You'll need to have the font in order to use the build. You can find it here: [Font](https://github.com/MiguelRAvila/Dotfiles/blob/master/.fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf)) 
