@@ -33,7 +33,19 @@
 
 You can modify colors here (line 10), I wrote some comments for an easy change.
 
-![](https://github.com/MiguelRAvila/ZenDmenu/blob/master/rsc/code1.png)
+```h
+static const char *prompt      = NULL;      /* -p option; prompt to the left of input field */
+static const char *colors[SchemeLast][2] = {
+	/*     fg         bg       */
+	[SchemeNorm] = { "#cccccc", "#1C1B1D" },
+	[SchemeSel] = { "#0F0F0F", "#98C379" }, 
+	[SchemeSelHighlight] = { "#0F0F0F", "#98C379" },
+	[SchemeNormHighlight] = { "#cccccc", "#1C1B1D" },
+	[SchemeOut] = { "#000000", "#98C379" },
+	[SchemeMid] = { "#d7d7d7", "#1f2026" },
+};
+
+```
 
 ##### Width:
 
