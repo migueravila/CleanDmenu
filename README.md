@@ -34,7 +34,6 @@
 You can modify colors here (line 10), I wrote some comments for an easy change.
 
 ```h
-static const char *prompt      = NULL;      /* -p option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#cccccc", "#1C1B1D" },
@@ -44,7 +43,6 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeOut] = { "#000000", "#98C379" },
 	[SchemeMid] = { "#d7d7d7", "#1f2026" },
 };
-
 ```
 
 ##### Width:
