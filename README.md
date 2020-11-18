@@ -1,5 +1,6 @@
 <div align="center">
-<h1>CleanDmenu: 🚀 Floating and enhanced dmenu build</h1>
+<h1>CleanDmenu</h1>
+<b>🚀 Floating and enhanced dmenu build</b>
 </div>
 
 <p align="center">
