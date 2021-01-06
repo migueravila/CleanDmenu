@@ -5,19 +5,19 @@
 
 static int topbar = 1;
 static int centered = 1;
-static int min_width = 800;
+static int min_width = 1105;
 static const char *fonts[] = {
-	"Inter:size=10",
+	"Proxima Nova:size=9.6",
 	"JoyPixels:pixelsize=8:antialias=true:autohint=true"};
 static const char *prompt = NULL;
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = {"#e2e2e3", "#201E21"},
-	[SchemeSel] = {"#201E21", "#9ed072"},
-	[SchemeSelHighlight] = {"#201E21", "#9ed072"},
-	[SchemeNormHighlight] = {"#e2e2e3", "#201E21"},
-	[SchemeOut] = {"#201E21", "#9ed072"},
-	[SchemeMid] = {"#e2e2e3", "#201E21"},
+	[SchemeNorm] = {"#cccccc", "#1C1B1D"},
+	[SchemeSel] = {"#1C1B1D", "#98C379"},
+	[SchemeSelHighlight] = {"#1C1B1D", "#98C379"},
+	[SchemeNormHighlight] = {"#cccccc", "#1C1B1D"},
+	[SchemeOut] = {"#000000", "#98C379"},
+	[SchemeMid] = {"#d7d7d7", "#1f2026"},
 };
 
 static unsigned int lines = 0;
