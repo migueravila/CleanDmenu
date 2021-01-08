@@ -5,15 +5,15 @@
 
 static int topbar = 1;
 static int centered = 1;
-static int min_width = 800;
+static int min_width = 1150;
 static const char *fonts[] = {
-	"Inter:size=10",
-	"JoyPixels:pixelsize=8:antialias=true:autohint=true"};
+	"Inter:size=10:style=Bold",
+	"JoyPixels:pixelsize=12:antialias=true:autohint=true"};
 static const char *prompt = NULL;
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = {"#e2e2e3", "#201E21"},
-	[SchemeSel] = {"#201E21", "#9ed072"},
+	[SchemeSel] = {"#9ed072", "#201E21"},
 	[SchemeSelHighlight] = {"#201E21", "#9ed072"},
 	[SchemeNormHighlight] = {"#e2e2e3", "#201E21"},
 	[SchemeOut] = {"#201E21", "#9ed072"},
