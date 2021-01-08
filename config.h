@@ -12,12 +12,12 @@ static const char *fonts[] = {
 static const char *prompt = NULL;
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = {"#e2e2e3", "#201E21"},
-	[SchemeSel] = {"#9ed072", "#201E21"},
-	[SchemeSelHighlight] = {"#201E21", "#9ed072"},
-	[SchemeNormHighlight] = {"#e2e2e3", "#201E21"},
-	[SchemeOut] = {"#201E21", "#9ed072"},
-	[SchemeMid] = {"#e2e2e3", "#201E21"},
+	[SchemeNorm] = {"#e2e2e3", "#19171A"},
+	[SchemeSel] = {"#9ed072", "#19171A"},
+	[SchemeSelHighlight] = {"#19171A", "#9ed072"},
+	[SchemeNormHighlight] = {"#e2e2e3", "#19171A"},
+	[SchemeOut] = {"#19171A", "#9ed072"},
+	[SchemeMid] = {"#e2e2e3", "#19171A"},
 };
 
 static unsigned int lines = 0;
